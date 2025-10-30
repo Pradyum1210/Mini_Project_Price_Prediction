@@ -58,8 +58,6 @@ Data Loading – Load Final_price_Bob.csv using pandas.
 
 Data Exploration – Understand dataset structure and relationships.
 
-Data Cleaning – Handle missing or invalid data.
-
 Train-Test Split – Divide data into training and testing sets.
 
 Model Training – Build and train multiple ML models:
