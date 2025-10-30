@@ -39,18 +39,6 @@ The project demonstrates **data analysis**, **model building**, and **performanc
 
 ---
 
-## ⚙️ Technologies and Libraries Used
-This project is implemented in **Python (Colab Notebook)** using the following libraries:
-
-```python
-import pandas as pd
-import numpy as np
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.naive_bayes import GaussianNB
-from sklearn.linear_model import LogisticRegression
-from sklearn.svm import SVC
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import classification_report
 
 Project Workflow
 
@@ -71,6 +59,8 @@ Logistic Regression
 Support Vector Machine (SVM)
 
 Model Evaluation – Compare model performance using accuracy and classification_report.
+
+
 
 📈 Results & Insights
 
