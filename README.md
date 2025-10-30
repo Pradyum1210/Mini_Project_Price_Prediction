@@ -40,7 +40,7 @@ The project demonstrates **data analysis**, **model building**, and **performanc
 ---
 
 ## ⚙️ Technologies and Libraries Used
-This project is implemented in **Python (Jupyter Notebook)** using the following libraries:
+This project is implemented in **Python (Colab Notebook)** using the following libraries:
 
 ```python
 import pandas as pd
