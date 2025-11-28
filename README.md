@@ -1,21 +1,24 @@
-# 📱 Product Price Prediction 
+# 📱 Product Price Prediction
 
-## 📌 Project Overview
+## 1️⃣ Project Overview 📌
+
 This project predicts the **price range of mobile phones** based on their hardware features and specifications.  
-Using **Python** and **Machine Learning algorithms**, models are trained to classify mobile phones into four price categories — from low to very high — based on attributes such as RAM, battery power, and display resolution.  
+Using **Python** and **Machine Learning algorithms**, models are trained to classify mobile phones into **four price categories** — from low to very high — based on attributes such as RAM, battery power, and display resolution.  
 
 The project demonstrates **data analysis**, **model building**, and **performance comparison** using various supervised learning algorithms.
 
 ---
 
-## 📂 Dataset Information
+## 2️⃣ Dataset Information 📂
+
 **Dataset name:** `Final_price_Bob.csv`  
 **Total records:** 1000  
 **Total features:** 22  
 
 ### 🧾 Key Columns
+
 | Feature | Description |
-|:----------|:-------------|
+|:--------|:------------|
 | `battery_power` | Total energy (mAh) the battery can store |
 | `blue` | Bluetooth support (1 = Yes, 0 = No) |
 | `clock_speed` | Processor speed in GHz |
@@ -39,33 +42,26 @@ The project demonstrates **data analysis**, **model building**, and **performanc
 
 ---
 
+## 3️⃣ Project Workflow 🛠️
 
-Project Workflow
+| Step | Description |
+|------|-------------|
+| **Data Loading** | Load `Final_price_Bob.csv` using Pandas |
+| **Data Exploration** | Understand dataset structure, missing values, and relationships |
+| **Train-Test Split** | Divide data into training and testing sets |
+| **Model Training** | Build and train multiple ML models:<br>• K-Nearest Neighbors (KNN)<br>• Naive Bayes (GaussianNB)<br>• Logistic Regression<br>• Support Vector Machine (SVM) |
+| **Model Evaluation** | Compare performance using **accuracy** and **classification report** |
+| **Feature Analysis** | Identify most influential features like RAM, battery, and pixel resolution |
 
-Data Loading – Load Final_price_Bob.csv using pandas.
+---
 
-Data Exploration – Understand dataset structure and relationships.
+## 4️⃣ Results & Insights 📈
 
-Train-Test Split – Divide data into training and testing sets.
+- Among all models, **SVM** and **KNN** provided the highest accuracy for predicting price ranges.  
+- **Top influencing features:** RAM, battery power, and pixel resolution.  
+- The model successfully classifies mobiles into one of **four price range categories** (Low, Medium, High, Very High).  
 
-Model Training – Build and train multiple ML models:
-
-K-Nearest Neighbors (KNN)
-
-Naive Bayes (GaussianNB)
-
-Logistic Regression
-
-Support Vector Machine (SVM)
-
-Model Evaluation – Compare model performance using accuracy and classification_report.
-
+---
 
 
-📈 Results & Insights
 
-Among all models, SVM and KNN provided the highest accuracy for predicting price ranges.
-
-RAM, battery power, and pixel resolution are the top influencing features.
-
-The model successfully classifies mobiles into one of four price range categories.
